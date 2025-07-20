@@ -4,6 +4,10 @@
   <img src="https://img.shields.io/badge/CLick to vist-PaperPilot-1abc9c?style=for-the-badge&logo=rocket" alt="Visit PaperPilot">
 </a>
 
+<p>
+  <a href="https://drive.google.com/file/d/12HvIsuqHeQxQc9DXt6BgidqYq1Vp1Oo0/view?usp=sharing"><img src="https://img.shields.io/badge/Demo-Watch%20Now-blue?style=for-the-badge&logo=linkedin" alt="Demo Video"/></a>
+</p>
+
 ## 📸 Preview
 
 <p align="center">
