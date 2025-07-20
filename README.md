@@ -7,7 +7,12 @@
 ## 📸 Preview
 
 <p align="center">
-  <img src="Screenshot 2025-06-16 201921.png" width="700" alt="Mimesta UI Preview"/>
+  <img src="Screenshot 1.png" width="700" alt="Mimesta UI Preview"/>
+  <img src="Screenshot 2.png" width="700" alt="Mimesta UI Preview"/>
+  <img src="Screenshot 3.png" width="700" alt="Mimesta UI Preview"/>
+  <img src="Screenshot 4.png" width="700" alt="Mimesta UI Preview"/>
+  <img src="Screenshot 5.png" width="700" alt="Mimesta UI Preview"/>
+  
   <br/>
   <i>*Modern, mobile-friendly interface with live PaperPilot*</i>
 </p>
