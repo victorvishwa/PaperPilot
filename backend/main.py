@@ -1,4 +1,3 @@
-
 import os
 import requests
 from bs4 import BeautifulSoup
@@ -7,6 +6,10 @@ from transformers import pipeline
 from gtts import gTTS
 from typing import List
 from functools import lru_cache
+from fastapi import FastAPI
+
+app = FastAPI() 
+
 
 OUTPUT_DIR = "outputs"
 os.makedirs(OUTPUT_DIR, exist_ok=True)
@@ -187,3 +190,6 @@ if __name__ == "__main__":
     print("\n📚 CITATIONS:\n")
     for c in result["citations"]:
         print(f"- {c['source']}\n  Topic: {c['topic']}\n  Audio: {c['audio']}")
+@app.get("/")
+def home():
+    return {"message": "Backend running successfully on Render!"}
