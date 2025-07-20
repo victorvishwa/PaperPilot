@@ -1,5 +1,8 @@
-# PaperPilot
-# Research Paper Podcast System
+# PaperPilot 
+
+<a href="https://aptinudge-front.onrender.com" target="_blank">
+  <img src="https://img.shields.io/badge/Visit-AptiNudge-1abc9c?style=for-the-badge&logo=rocket" alt="Visit PaperPilot">
+</a>
 
 ## Overview
 This project is a multi-agent system that processes research papers (PDFs, DOIs, or URLs), generates AI-powered summaries, and converts them into podcast-style audio. The system features a React frontend and a FastAPI backend, leveraging NLP and TTS models for summarization and audio synthesis.
