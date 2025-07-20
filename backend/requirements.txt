@@ -1,6 +1,7 @@
-transformers[sentencepiece]
-torch
+fastapi
+uvicorn
+transformers
 gtts
-requests
-beautifulsoup4
 PyPDF2
+beautifulsoup4
+requests
