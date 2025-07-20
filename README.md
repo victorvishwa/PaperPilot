@@ -4,6 +4,14 @@
   <img src="https://img.shields.io/badge/CLick to vist-PaperPilot-1abc9c?style=for-the-badge&logo=rocket" alt="Visit PaperPilot">
 </a>
 
+## 📸 Preview
+
+<p align="center">
+  <img src="Screenshot 2025-06-16 201921.png" width="700" alt="Mimesta UI Preview"/>
+  <br/>
+  <i>*Modern, mobile-friendly interface with live meme rendering*</i>
+</p>
+
 ## Overview
 This project is a multi-agent system that processes research papers (PDFs, DOIs, or URLs), generates AI-powered summaries, and converts them into podcast-style audio. The system features a React frontend and a FastAPI backend, leveraging NLP and TTS models for summarization and audio synthesis.
 
