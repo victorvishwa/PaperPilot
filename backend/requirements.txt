@@ -5,3 +5,4 @@ transformers
 PyPDF2
 beautifulsoup4
 requests
+torch
