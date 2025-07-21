@@ -20,7 +20,7 @@ app.add_middleware(
 )
 
 UPLOAD_DIR = "uploads"
-OUTPUT_DIR = "outputs"
+OUTPUT_DIR = "/tmp/outputs"
 os.makedirs(UPLOAD_DIR, exist_ok=True)
 
 @app.post("/analyze")
