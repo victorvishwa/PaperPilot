@@ -13,7 +13,7 @@ app = FastAPI()
 # Allow CORS for local React dev
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],
+    allow_origins=["https://paperpilot-1.onrender.com"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
