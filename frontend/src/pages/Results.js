@@ -50,7 +50,8 @@ const Results = () => {
 
   const downloadAudio = (filename) => {
     const link = document.createElement('a');
-    link.href = `http://https://paperpilot-5dua.onrender.com/audio/${filename}`;
+    const API_BASE_URL = process.env.REACT_APP_API_URL || 'http://localhost:8004';
+    link.href = `${API_BASE_URL}/audio/${filename}`;
     link.download = filename;
     document.body.appendChild(link);
     link.click();
@@ -192,7 +193,7 @@ const Results = () => {
                     </div>
                     <div className="mt-2">
                       <AudioPlayer
-                        src={`http://https://paperpilot-5dua.onrender.com/audio/${paper.audio_file}`}
+                        src={`${process.env.REACT_APP_API_URL || 'http://localhost:8004'}/audio/${paper.audio_file}`}
                         controls
                         className="w-full"
                       />
@@ -255,7 +256,7 @@ const Results = () => {
                     </button>
                   </div>
                   <AudioPlayer
-                    src={`http://https://paperpilot-5dua.onrender.com/audio/${results.audio.podcast_file}`}
+                    src={`${process.env.REACT_APP_API_URL || 'http://localhost:8004'}/audio/${results.audio.podcast_file}`}
                     controls
                     className="w-full"
                   />

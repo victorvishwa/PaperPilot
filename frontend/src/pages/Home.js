@@ -24,7 +24,7 @@ const Home = () => {
     {
       icon: <Zap className="w-8 h-8 text-primary-600" />,
       title: "Citation Tracking",
-      description: "Automatically generate citation logs in multiple formats (APA, MLA, Chicago, BibTeX)."
+      description: "Automatically generate citation logs in multiple formats."
     }
   ];
 
@@ -34,7 +34,7 @@ const Home = () => {
       <div className="container mx-auto px-4 py-8">
         <div className="text-center mb-12">
           <h1 className="text-5xl md:text-6xl font-bold text-gray-900 mb-6">
-            Research Podcast AI
+            PaperPilot
           </h1>
           <p className="text-xl md:text-2xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
             Transform research papers into engaging podcast summaries using advanced AI agents

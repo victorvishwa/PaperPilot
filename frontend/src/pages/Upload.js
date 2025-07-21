@@ -65,7 +65,8 @@ const Upload = () => {
         console.log(pair[0] + ', ' + pair[1]);
       }
 
-      const response = await axios.post('https://paperpilot-5dua.onrender.com/analyze', formData, {
+      const API_BASE_URL = process.env.REACT_APP_API_URL || 'http://localhost:8004';
+      const response = await axios.post(`${API_BASE_URL}/analyze`, formData, {
         headers: {
           'Content-Type': 'multipart/form-data',
         },
