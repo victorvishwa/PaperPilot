@@ -11,7 +11,7 @@ from fastapi import FastAPI
 app = FastAPI() 
 
 
-OUTPUT_DIR = "outputs"
+OUTPUT_DIR = "/tmp/outputs"
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
 # Lazy-load and cache summarizer
