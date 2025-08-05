@@ -5,7 +5,7 @@ import { Mic, BookOpen, Brain, Zap } from 'lucide-react';
 const Home = () => {
   const navigate = useNavigate();
 
-  const features = [
+  const features = [   
     {
       icon: <BookOpen className="w-8 h-8 text-primary-600" />,
       title: "Multi-Source Input",
